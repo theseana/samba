@@ -1,6 +1,6 @@
 # > 15  => Garmeee
 # < 15  => Sardeee
-temp = 10
+temp = 50
 if temp > 15:
     print("Oh Oh Its HOT today!")
 if temp < 15:

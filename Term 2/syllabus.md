@@ -72,6 +72,16 @@ f'My name is {name}'
   - تبدیل به عدداعشاری میکند  
   - از عدد یا رشته تبدیل به عدد اعشاری میشود
 
+- range()
+  - از این دستور برای ایجاد سری عددی استفاده میکنیم
+  - range(7)
+    - از صفر تا 6 را ایحاد میکند
+  - range(2, 7)
+    - از ۲ تا 6 را ایحاد میکند
+  - range(2, 7, 3)
+    - از ۲ تا 6 را ۳ واحد سه واحد ایحاد میکند
+
+
 # Comment
 اگر قصد دارید در کدتون پیغام بنویسید یا کدی مه نوشته اید اجرا نشود ابتدای خط # قرار دهید.
 
@@ -96,3 +106,53 @@ f'My name is {name}'
 - باید شرط داشته باشد
 - اخر خط دونقطه قرارمیگیرد
 - دستورات باید با فاصله نوشته شود(indent)
+
+# Chained `if`
+```
+if condition:
+    statements
+elif condition
+    statements
+```
+
+# Turtle Library
+## import
+1. import tkinter
+2. import tkinter as tk
+3. from tkinter import *
+
+## Functions
+- forward
+- left
+
+# `while` Loop
+این حلقه مانند if است اما تا زمانیکه شرط درست هست آنرا اجرا میکند
+- باید شرط داشته باشد
+- اخر خط دونقطه قرارمیگیرد
+- دستورات باید با فاصله نوشته شود(indent)
+
+# String Methods
+[String Methods](https://www.w3schools.com/python/python_ref_string.asp)  
+
+| isdecimal() | isdigit() | isnumeric() |          Example    |
+| :---        |  :----:   |     ---:    |      :----:         |
+|    True     |    True   |    True     | "038", "０３８"      |
+|  False      |  False    |  False      | "abc", "38.0", "-38"|
+
+
+# String Index
+رشته اطلاعات رو داخل پلاکهای مجزا ذخیره میکند.
+مثال:
+```
+#    01234567
+#    ^^^^^^^^   
+a = "Poulstar"
+  
+```
+
+# For
+برای تکرار و ایتریت کردن استفاده میکنیم  
+ 
+    for i in range(4):
+        print(i)
+
